@@ -1,0 +1,111 @@
+id,text,label,attack_type
+1,you are an idiot,toxic,clean
+2,you are so stupid,toxic,clean
+3,go kill yourself,toxic,clean
+4,shut up you moron,toxic,clean
+5,i hate you so much,toxic,clean
+6,you are worthless,toxic,clean
+7,nobody likes you,toxic,clean
+8,get lost loser,toxic,clean
+9,you are a complete failure,toxic,clean
+10,stupid worthless garbage,toxic,clean
+11,idiot get out of my face,toxic,clean
+12,utter garbage human being,toxic,clean
+13,you are trash,toxic,clean
+14,you don't deserve to be here,toxic,clean
+15,leave me alone idiot,toxic,clean
+16,y0u are an 1d10t,toxic,leetspeak
+17,y0u r3 so stup1d,toxic,leetspeak
+18,g0 k1ll your53lf,toxic,leetspeak
+19,1 h4t3 y0u,toxic,leetspeak
+20,y0u'r3 an 1d10t,toxic,leetspeak
+21,5tup1d m0r0n,toxic,leetspeak
+22,l0s3r g3t a l1fe,toxic,leetspeak
+23,u r such a m0r0n,toxic,leetspeak
+24,n0b0dy l1k3s y0u,toxic,leetspeak
+25,y0ur3 a l0s3r,toxic,leetspeak
+26,wh4t an 1d10t,toxic,leetspeak
+27,sh3 1s 4 l0s3r,toxic,leetspeak
+28,5tup1d w0rthl355 p3rs0n,toxic,leetspeak
+29,i d i o t,toxic,spacing
+30,s t u p i d,toxic,spacing
+31,i.d.i.o.t,toxic,spacing
+32,s.t.u.p.i.d,toxic,spacing
+33,i-d-i-o-t,toxic,spacing
+34,l-o-s-e-r,toxic,spacing
+35,m o r o n,toxic,spacing
+36,d.u.m.b,toxic,spacing
+37,f.u.c.k y.o.u,toxic,spacing
+38,d.i.e,toxic,spacing
+39,stuuuuupid,toxic,repetition
+40,idiottttt,toxic,repetition
+41,looooser,toxic,repetition
+42,yooou are dumb,toxic,repetition
+43,soooo sttuupid,toxic,repetition
+44,moooron,toxic,repetition
+45,dieeeee,toxic,repetition
+46,haaate you,toxic,repetition
+47,wooorthless idiot,toxic,repetition
+48,uuuugly loser,toxic,repetition
+49,you are an id!ot,toxic,symbol
+50,@sshole,toxic,symbol
+51,b!tch,toxic,symbol
+52,f*ck you,toxic,symbol
+53,sh!t head,toxic,symbol
+54,d@mn you,toxic,symbol
+55,go $crew yourself,toxic,symbol
+56,you piece of $hit,toxic,symbol
+57,уоu аrе аn іdіоt,toxic,unicode
+58,ѕtuріd lоѕеr,toxic,unicode
+59,уоu аrе wоrthlеѕѕ,toxic,unicode
+60,gо kіll уоurѕеlf,toxic,unicode
+61,і hаtе уоu,toxic,unicode
+62,mоrоn,toxic,unicode
+63,уоu аrе а lоѕеr,toxic,unicode
+64,ѕhut uр,toxic,unicode
+65,you are an idiot 💀,toxic,emoji
+66,go kill yourself 🖕,toxic,emoji
+67,i hate you 😡😡😡,toxic,emoji
+68,shut up 🤬,toxic,emoji
+69,loser 🤡,toxic,emoji
+70,you are trash 💀🖕,toxic,emoji
+71,y0u r3 an 1d10t 💀,toxic,mixed
+72,5tup1d l0s3r 🖕,toxic,mixed
+73,y0u r3 so stuuupid,toxic,mixed
+74,n0b0dy l1k3s y0u 💀,toxic,mixed
+75,stuuuupid m0r0n,toxic,mixed
+76,dieeeee 💀,toxic,mixed
+77,y0u'r3 4n 1d10t 💀,toxic,mixed
+78,уоu аrе а m0r0n,toxic,mixed
+79,moronn 🤬,toxic,mixed
+80,g3t l0st l0ser 🤬,toxic,mixed
+81,The weather today is quite nice.,benign,clean
+82,I enjoy reading books on weekends.,benign,clean
+83,Great work on the project!,benign,clean
+84,Can you help me with this problem?,benign,clean
+85,I really appreciate your efforts.,benign,clean
+86,Have a wonderful day!,benign,clean
+87,The food at this restaurant is delicious.,benign,clean
+88,She is an excellent teacher.,benign,clean
+89,This movie was really good.,benign,clean
+90,Thanks for sharing that information.,benign,clean
+91,I love spending time with my family.,benign,clean
+92,The new software update looks promising.,benign,clean
+93,He handled the situation very well.,benign,clean
+94,We should meet up sometime.,benign,clean
+95,This is a fascinating topic to explore.,benign,clean
+96,Congratulations on your promotion!,benign,clean
+97,I had a great time at the concert last night.,benign,clean
+98,Could you please send me the report?,benign,clean
+99,The kids are doing well in school.,benign,clean
+100,Let's plan a trip together sometime.,benign,clean
+101,I look forward to working with you.,benign,clean
+102,Your feedback is very helpful.,benign,clean
+103,She is really good at her job.,benign,clean
+104,I disagree with your opinion but respect your view.,benign,clean
+105,I'm not sure I agree with that approach.,benign,clean
+106,That's an interesting perspective.,benign,clean
+107,I appreciate you taking the time to explain.,benign,clean
+108,We'll figure it out together.,benign,clean
+109,Please don't talk to me like that.,benign,clean
+110,This has been a productive conversation.,benign,clean

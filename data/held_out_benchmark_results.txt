@@ -1,0 +1,54 @@
+====================================================================
+  ADVERSARIAL TOXIC LANGUAGE AUDITOR
+  FINAL HELD-OUT ROBUSTNESS BENCHMARK
+====================================================================
+
+Dataset: 120 held-out examples
+
+--- 1. SEMANTIC LEAKAGE ANALYSIS ---
+
+Max Cosine Similarity vs Knowledge Base:
+  Mean:   0.3548
+  Median: 0.3064
+  Min:    0.1422
+  Max:    0.7530
+  StdDev: 0.1453
+  > 0.80: 0.0%
+  > 0.85: 0.0%
+  > 0.90: 0.0%
+  > 0.95: 0.0%
+
+Detailed pairs saved to: semantic_leakage.csv
+
+Top 3 Highest-Similarity Pairs:
+  Sim: 0.7530
+  Qry: you are a vile disgusting creature
+  KB:  y0u 4r3 such 4 d1sgu5t1ng p3rs0n
+
+  Sim: 0.6822
+  Qry: you are vile 😈
+  KB:  you are disgusting
+
+  Sim: 0.6679
+  Qry: I think we need a different approach here.
+  KB:  I'm not sure I agree with that approach.
+
+--- 2. RETRIEVAL METRICS (top-k) ---
+
+Top-1 Label Agreement:         117/120 (0.975)
+Top-5 Label Agreement:         120/120 (1.000)
+Top-1 Category Agreement:      89/120 (0.742)
+Top-5 Category Agreement:      109/120 (0.908)
+Top-1 Attack-Family Agreement: 40/120 (0.333)
+Top-5 Attack-Family Agreement: 57/120 (0.475)
+
+--- 3. ABLATION EXPERIMENT ---
+
+System                                          Acc    Prec     Rec      F1
+---------------------------------------------------------------------------
+A. Baseline (keyword, raw)                    0.275   1.000   0.022   0.044
+B. Normalization + keyword                    0.375   1.000   0.157   0.272
+C. Detector + normalization (no retrieval)    0.258   0.000   0.000   0.000
+D. Full pipeline (detect+norm+retrieve)       1.000   1.000   1.000   1.000
+
+====================================================================
