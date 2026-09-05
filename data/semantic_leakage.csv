@@ -1,6 +1,0 @@
-query_id,query_text,query_label,query_category,query_attack_type,max_similarity,nearest_kb_id,nearest_kb_text,nearest_kb_label,nearest_kb_category,nearest_kb_attack
-1,you are a pathetic excuse for a person,toxic,insult,clean,0.518559455871582,87,уоu аrе а lоѕеr,toxic,insult,unicode_homoglyph
-2,what a brainless fool you are,toxic,insult,clean,0.5712260603904724,99,wh4t an 1d10t y0u are,toxic,insult,leetspeak
-3,crawl back under the rock you came from,toxic,insult,clean,0.36761149764060974,92,get out of here loser,toxic,insult,clean
-4,you make me sick,toxic,insult,clean,0.49829375743865967,7,you are disgusting,toxic,insult,clean
-5,you are absolutely repulsive,toxic,insult,clean,0.497196763753891,119,y0u 4r3 such 4 d1sgu5t1ng p3rs0n,toxic,insult,leetspeak

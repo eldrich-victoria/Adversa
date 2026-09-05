@@ -1,11 +1,110 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
 *.egg-info/
-.venv/
+.installed.cfg
+*.egg
+
+# Virtual environments
 venv/
+.venv/
 env/
+ENV/
+env.bak/
+venv.bak/
+
+# Data, Vector Indices & ML Model Checkpoints
 *.npy
+*.npz
 *.index
-.streamlit/
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.onnx
+*.h5
+*.pkl
+*.pickle
+*.faiss
+*.chroma
+*.parquet
+*.db
+*.sqlite
+*.sqlite3
+models/
+.cache/
+wandb/
+mlruns/
+tb_logs/
+*.csv
+*.json
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/config.toml.bak
+
+# Environment variables & secrets
+.env
+.env.*
+*.env
+secrets.json
+*.pem
+*.key
+
+# Testing & Linting
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+
+# Logs & Temporary files
+*.log
+logs/
+*.tmp
+*.temp
+*.bak
+scratch/
+
+# Editor / IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# Operating System files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+desktop.ini
+
